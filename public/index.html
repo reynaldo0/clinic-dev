@@ -44,17 +44,82 @@
                 <!-- Btn -->
                 <button class="btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0">Book Now</button>
                 <!-- Mobile Navbar -->
-                <nav class="mnav bg-red-500 fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl lg:hidden transition-all duration-300 z-20">
+                <nav class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl lg:hidden transition-all duration-300 z-20">
                     <!-- Nav trigger btn -->
                     <div class="mnav_close-btn bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all">
                         <i class="mnav_close-btn-icon ri-arrow-right-s-line text-2xl text-white"></i>
                     </div>
+                    
+                    <div class="px-12 flex flex-col gap-y-12 h-full">
+                        <!-- logo  -->
+                        <a href="#">
+                            <img src="assets/img/header/logo.svg" alt="">
+                        </a>
+                        <!-- List -->
+                        <ul class="flex flex-col gap-y-6">
+                            <li>
+                                <a href="#" class="text-secondary hover:text-accent transition-all duration-300">Beranda</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-secondary hover:text-accent transition-all duration-300 ">Dokter</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-secondary hover:text-accent transition-all duration-300">Gedung</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-secondary hover:text-accent transition-all duration-300">Layanan</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-secondary hover:text-accent transition-all duration-300">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-secondary hover:text-accent transition-all duration-300">Kontak</a>
+                            </li>
+                        </ul>
+                        <!-- Form -->
+                        <form class="relative flex gap-x-[10px]">
+                            <label for="mnav-search-input">
+                                <i class="ri-search-line text-2xl text-accent"></i>
+                            </label>
+                            <input type="text" id="mnav-search-input" placeholder="Cari...." class="outline-none w-[160px] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic text-lg">
+                        </form>
+                    </div>
+                </nav>
+
+                <!-- Desktop Nav -->
+                <nav class="bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[40px]">
+                    <!-- List -->
+                    <ul class="flex gap-x-5">
+                        <li>
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300 ">Dokter</a>
+                        </li>
+                        <li>
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Gedung</a>
+                        </li>
+                        <li>
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Layanan</a>
+                        </li>
+                        <li>
+                            <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-secondary hover:text-accent transition-all duration-300">Kontak</a>
+                        </li>
+                    </ul>
+                    <!-- Form -->
+                    <form class="relative flex gap-x-[10px]">
+                        <label for="search-input" class="flex justify-center text-center items-center group">
+                            <i class="ri-search-line text-2xl text-accent"></i>
+                        </label>
+                        <input type="text" id="search-input" placeholder="Cari...." class="outline-none w-[100px] focus:w-[180px] focus:border-b-2 focus:border-accent placeholder:italic placeholder:text-base transition-all duration-150 text-lg">
+                    </form>
                 </nav>
             </div>
         </div>
-        
     </header>
-    
     <!-- HEADER CLOSE -->
 
 
