@@ -62,4 +62,13 @@ h1,h2,h3,h4,h5,h6{
     @apply py-12 xl:py-[150px];
 }
 
+/* Swipper Bullets */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    @apply bg-accent;
+}
 
+/* FAQ */
+.faq_item.open .faq_answer{
+    @apply h-full;
+}
