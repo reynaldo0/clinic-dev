@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "klinik",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/input.css -o ./public/css/output.css",
+    "dev": "tailwindcss -i ./src/css/input.css -o ./public/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
