@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .btn-outline{
-    @apply bg-transparent border-2 border-accent text-secondary hover:bg-accent hover:bg-transparent hover:text-white;
+    @apply bg-transparent border-2 border-accent text-secondary hover:bg-accent hover:border-transparent hover:text-white;
 }
 
 .input, .select{
