@@ -876,6 +876,14 @@ video {
   background-image: url('/public/assets/img/services/bg.svg');
 }
 
+.bg-\[url\(\'\.\/public\/assets\/img\/services\/bg\.svg\'\)\] {
+  background-image: url('./public/assets/img/services/bg.svg');
+}
+
+.bg-\[url\(\'public\/assets\/img\/services\/bg\.svg\'\)\] {
+  background-image: url('public/assets/img/services/bg.svg');
+}
+
 .bg-\[url\(\'\.\.\/public\/assets\/img\/services\/bg\.svg\'\)\] {
   background-image: url('../public/assets/img/services/bg.svg');
 }
