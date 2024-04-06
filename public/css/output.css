@@ -873,7 +873,7 @@ video {
 }
 
 .bg-services {
-  background-image: url(/public/assets/img/services/bg.svg);
+  background-image: url(./public/assets/img/services/bg.svg);
 }
 
 .bg-cover {
