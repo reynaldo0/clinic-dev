@@ -888,6 +888,14 @@ video {
   background-image: url('../public/assets/img/services/bg.svg');
 }
 
+.bg-\[url\(\'\.\/assets\/img\/services\/bg\.svg\'\)\] {
+  background-image: url('./assets/img/services/bg.svg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/img\/services\/bg\.svg\'\)\] {
+  background-image: url('../assets/img/services/bg.svg');
+}
+
 .bg-cover {
   background-size: cover;
 }
