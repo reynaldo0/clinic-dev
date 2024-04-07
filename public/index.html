@@ -405,58 +405,114 @@
         <h2
           class="appointment_title h2 mb-5 lg:mb-[50px] text-center lg:text-left"
         >
-          Lorem ipsum dolor sit: <span class="text-accent-tertiary">(08998989)</span>
+          Lorem ipsum dolor sit:
+          <span class="text-accent-tertiary">(08998989)</span>
         </h2>
         <!-- form -->
         <form class="appointment_form flex flex-col gap-y-5 mx-4 lg:mx-0">
-            <!-- select wrapper -->
-            <div class="flex flex-col lg:flex-row gap-5">
-                <!-- Select 1 -->
-                <div class="select relative flex items-center">
-                    <!-- icon -->
-                    <div class="absolute right-4">
-                        <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
-                    </div>
-                    <!-- select -->
-                    <select class="appearance-none outline-none h-full w-full bg-transparent px-4">
-                        <option value="1">pilih presiden</option>
-                        <option value="2">prabowo</option>
-                        <option value="3">Select test 3</option>
-                        <option value="4">Select test 4</option>
-                    </select>
-                </div>
-                <!-- Select 2 -->
-                <div class="select relative flex items-center">
-                    <!-- icon -->
-                    <div class="absolute right-4">
-                        <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
-                    </div>
-                    <!-- select -->
-                    <select class="appearance-none outline-none h-full w-full bg-transparent px-4">
-                        <option value="1">pilih dokter </option>
-                        <option value="2">Select test 2</option>
-                        <option value="3">Select test 3</option>
-                        <option value="4">Select test 4</option>
-                    </select>
-                </div>
+          <!-- select wrapper -->
+          <div class="flex flex-col lg:flex-row gap-5">
+            <!-- Select 1 -->
+            <div class="select relative flex items-center">
+              <!-- icon -->
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <!-- select -->
+              <select
+                class="appearance-none outline-none h-full w-full bg-transparent px-4"
+              >
+                <option value="1">pilih presiden</option>
+                <option value="2">prabowo</option>
+                <option value="3">Select test 3</option>
+                <option value="4">Select test 4</option>
+              </select>
             </div>
-            <!-- input wrapper -->
-            <div class="flex flex-col lg:flex-row gap-5">
-                <input type="text" class="input" placeholder="Nama Lengkap">
-                <input type="text" class="input" placeholder="Nomor Telepon">
+            <!-- Select 2 -->
+            <div class="select relative flex items-center">
+              <!-- icon -->
+              <div class="absolute right-4">
+                <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+              </div>
+              <!-- select -->
+              <select
+                class="appearance-none outline-none h-full w-full bg-transparent px-4"
+              >
+                <option value="1">pilih dokter</option>
+                <option value="2">Select test 2</option>
+                <option value="3">Select test 3</option>
+                <option value="4">Select test 4</option>
+              </select>
             </div>
-            <!-- input wrapper -->
-            <div class="flex flex-col lg:flex-row gap-5">
-                <input class="input" type="date">
-                <input class="input" type="time">
-            </div>
-            <!-- Btn -->
-            <button class="btn btn-lg btn-accent self-start" type="submit">Buat Janji</button>
+          </div>
+          <!-- input wrapper -->
+          <div class="flex flex-col lg:flex-row gap-5">
+            <input type="text" class="input" placeholder="Nama Lengkap" />
+            <input type="text" class="input" placeholder="Nomor Telepon" />
+          </div>
+          <!-- input wrapper -->
+          <div class="flex flex-col lg:flex-row gap-5">
+            <input class="input" type="date" />
+            <input class="input" type="time" />
+          </div>
+          <!-- Btn -->
+          <button
+            class="btn btn-lg btn-accent self-start lg:self-auto my-10"
+            type="submit"
+          >
+            Buat Janji
+          </button>
         </form>
       </div>
     </section>
-
     <!-- appointment ENDS -->
+
+    <!-- testimonial start -->
+    <section
+      class="testimonial bg-[url('../assets/img/testimonials/bg.svg')] bg-cover bg-right bg-no-repeat py-12 lg:min-h-[595px] lg:py-0"
+    >
+      <div class="testimonial_container container mx-auto">
+        <div class="hidden lg:flex">
+          <!-- img -->
+          <img src="assets/img/testimonials/img.png" alt="" />
+        </div>
+        <!-- slider -->
+        <div class="max-w-[98%] lg:max-w-[710px]">
+          <!-- Slider main container -->
+          <div class="swiper h-[400px]">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="h-full flex flex-col justify-center items-start">
+                  <div class="max-w-[680px] mx-auto text-center lg:text-left">
+                    <p
+                      class="font-light relative text-[22px] text-[#4c5354] leading-[190%] text-justify lg:text-left mx-10 lg:mx-0 before:bg-[url('../assets/icons/testimonials/quote-left.svg')] before:bg-contain before:bg-bottom before:inline-block before:top-0 before:w-10 before:h-10 before:bg-no-repeat after:bg-[url('../assets/icons/testimonials/quote-right.svg')] after:bg-contain after:bg-bottom after:inline-block after:top-0 after:w-10 after:h-10 after:bg-no-repeat mb-7"
+                    >
+                      <!-- pesan -->
+                      <span class="mx-2"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Eaque deleniti pariatur laboriosam repellat?
+                        Provident est exercitationem repellendus, facilis fuga,
+                        hic asperiores sit aperiam consequatur libero sunt
+                        distinctio molestias quas? Ipsam!</span
+                      >
+                    </p>
+                    <!-- nama -->
+                    <div class="text-[26px] text-[#4c5354] font-semibold">Irfan Gaul</div>
+                    <!-- profesi -->
+                    <div class="text-[#9ab4b7] font-medium uppercase tracking-[2.24px]">Manager</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Swiper pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends -->
 
     <!-- DIV KOSONG -->
     <div class="h-[4000px]"></div>

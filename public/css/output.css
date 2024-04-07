@@ -649,6 +649,16 @@ video {
   margin-right: auto;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -675,6 +685,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
 }
 
 .inline {
@@ -707,6 +721,10 @@ video {
 
 .h-\[4000px\] {
   height: 4000px;
+}
+
+.h-\[400px\] {
+  height: 400px;
 }
 
 .h-full {
@@ -762,8 +780,16 @@ video {
   max-width: 300px;
 }
 
+.max-w-\[680px\] {
+  max-width: 680px;
+}
+
 .max-w-\[714px\] {
   max-width: 714px;
+}
+
+.max-w-\[98\%\] {
+  max-width: 98%;
 }
 
 .flex-1 {
@@ -790,6 +816,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -879,11 +909,6 @@ video {
   border-right-width: 1px;
 }
 
-.bg-gray-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
-}
-
 .bg-grey {
   --tw-bg-opacity: 1;
   background-color: rgb(232 240 241 / var(--tw-bg-opacity));
@@ -907,8 +932,16 @@ video {
   background-image: url('../assets/img/services/bg.svg');
 }
 
+.bg-\[url\(\'\.\.\/assets\/img\/testimonials\/bg\.svg\'\)\] {
+  background-image: url('../assets/img/testimonials/bg.svg');
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-right {
+  background-position: right;
 }
 
 .bg-no-repeat {
@@ -963,6 +996,10 @@ video {
   padding-right: 1rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -983,6 +1020,10 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
 }
 
 .text-\[26px\] {
@@ -1019,12 +1060,37 @@ video {
   text-transform: uppercase;
 }
 
+.leading-\[190\%\] {
+  line-height: 190%;
+}
+
 .leading-normal {
   line-height: 1.5;
 }
 
 .tracking-\[2\.24px\] {
   letter-spacing: 2.24px;
+}
+
+.tracking-\[\] {
+  letter-spacing: ;
+}
+
+.tracking-\[5\.24px\] {
+  letter-spacing: 5.24px;
+}
+
+.tracking-\[\.24px\] {
+  letter-spacing: .24px;
+}
+
+.tracking-\[10px\] {
+  letter-spacing: 10px;
+}
+
+.text-\[\#4c5354\] {
+  --tw-text-opacity: 1;
+  color: rgb(76 83 84 / var(--tw-text-opacity));
 }
 
 .text-accent {
@@ -1050,6 +1116,27 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#9a\] {
+  color: #9a;
+}
+
+.text-\[\#9ab4\] {
+  color: #9ab4;
+}
+
+.text-\[\#9ab4b7\] {
+  --tw-text-opacity: 1;
+  color: rgb(154 180 183 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -1301,49 +1388,99 @@ h1,h2,h3,h4,h5,h6 {
   font-style: italic;
 }
 
+.before\:top-0::before {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.before\:inline-block::before {
+  content: var(--tw-content);
+  display: inline-block;
+}
+
+.before\:h-10::before {
+  content: var(--tw-content);
+  height: 2.5rem;
+}
+
+.before\:w-10::before {
+  content: var(--tw-content);
+  width: 2.5rem;
+}
+
+.before\:bg-\[url\(\'\.\.\/assets\/icons\/testimonials\/quote-left\.svg\'\)\]::before {
+  content: var(--tw-content);
+  background-image: url('../assets/icons/testimonials/quote-left.svg');
+}
+
+.before\:bg-contain::before {
+  content: var(--tw-content);
+  background-size: contain;
+}
+
+.before\:bg-bottom::before {
+  content: var(--tw-content);
+  background-position: bottom;
+}
+
+.before\:bg-no-repeat::before {
+  content: var(--tw-content);
+  background-repeat: no-repeat;
+}
+
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:inline-block::after {
+  content: var(--tw-content);
+  display: inline-block;
+}
+
+.after\:h-10::after {
+  content: var(--tw-content);
+  height: 2.5rem;
+}
+
+.after\:w-10::after {
+  content: var(--tw-content);
+  width: 2.5rem;
+}
+
+.after\:bg-\[url\(\'\.\.\/assets\/icons\/testimonials\/quote-left\.svg\'\)\]::after {
+  content: var(--tw-content);
+  background-image: url('../assets/icons/testimonials/quote-left.svg');
+}
+
+.after\:bg-\[url\(\'\.\.\/assets\/icons\/testimonials\/quote-right\.svg\'\)\]::after {
+  content: var(--tw-content);
+  background-image: url('../assets/icons/testimonials/quote-right.svg');
+}
+
+.after\:bg-contain::after {
+  content: var(--tw-content);
+  background-size: contain;
+}
+
+.after\:bg-bottom::after {
+  content: var(--tw-content);
+  background-position: bottom;
+}
+
+.after\:bg-no-repeat::after {
+  content: var(--tw-content);
+  background-repeat: no-repeat;
+}
+
 .hover\:bg-grey:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(232 240 241 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-slate-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-zinc-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-green-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-accent:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 188 207 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-accent-secondary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 171 188 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-accent-tertiary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(144 198 205 / var(--tw-bg-opacity));
-}
-
 .hover\:text-accent:hover {
   --tw-text-opacity: 1;
   color: rgb(28 188 207 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:w-\[180px\]:focus {
@@ -1413,8 +1550,16 @@ h1,h2,h3,h4,h5,h6 {
     display: none;
   }
 
+  .lg\:min-h-\[595px\] {
+    min-height: 595px;
+  }
+
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:max-w-\[710px\] {
+    max-width: 710px;
   }
 
   .lg\:max-w-none {
@@ -1454,6 +1599,10 @@ h1,h2,h3,h4,h5,h6 {
     row-gap: 0px;
   }
 
+  .lg\:self-auto {
+    align-self: auto;
+  }
+
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1462,6 +1611,11 @@ h1,h2,h3,h4,h5,h6 {
   .lg\:px-\[40px\] {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .lg\:pb-14 {
