@@ -703,6 +703,14 @@ video {
   margin-bottom: 12rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -745,6 +753,34 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[00px\] {
+  height: 00px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[460px\] {
+  height: 460px;
+}
+
+.h-\[1px\] {
+  height: 1px;
 }
 
 .min-h-\[288px\] {
@@ -802,6 +838,38 @@ video {
 
 .max-w-\[98\%\] {
   max-width: 98%;
+}
+
+.max-w-\[100\%\] {
+  max-width: 100%;
+}
+
+.max-w-\[\%\] {
+  max-width: %;
+}
+
+.max-w-\[9\%\] {
+  max-width: 9%;
+}
+
+.max-w-\[60\%\] {
+  max-width: 60%;
+}
+
+.max-w-\[95\%\] {
+  max-width: 95%;
+}
+
+.max-w-\[90\%\] {
+  max-width: 90%;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
+
+.max-w-\[85\%\] {
+  max-width: 85%;
 }
 
 .flex-1 {
@@ -1014,12 +1082,55 @@ video {
   padding-bottom: 6rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-justify {
@@ -1058,6 +1169,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1084,6 +1200,18 @@ video {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-\[10\%\] {
+  line-height: 10%;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-3 {
+  line-height: .75rem;
 }
 
 .tracking-\[2\.24px\] {
@@ -1523,6 +1651,10 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 60px;
   }
 
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1615,9 +1747,18 @@ h1,h2,h3,h4,h5,h6 {
     text-align: left;
   }
 
+  .lg\:text-right {
+    text-align: right;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
