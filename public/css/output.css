@@ -614,6 +614,10 @@ video {
   left: 0px;
 }
 
+.right-4 {
+  right: 1rem;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -651,6 +655,10 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-\[15px\] {
@@ -774,6 +782,12 @@ video {
   resize: both;
 }
 
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -817,8 +831,16 @@ video {
   row-gap: 1rem;
 }
 
+.gap-y-5 {
+  row-gap: 1.25rem;
+}
+
 .gap-y-6 {
   row-gap: 1.5rem;
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .self-end {
@@ -857,6 +879,11 @@ video {
   border-right-width: 1px;
 }
 
+.bg-gray-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+}
+
 .bg-grey {
   --tw-bg-opacity: 1;
   background-color: rgb(232 240 241 / var(--tw-bg-opacity));
@@ -867,29 +894,13 @@ video {
   background-color: rgb(36 42 43 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/public\/assets\/img\/services\/bg\.svg\'\)\] {
-  background-image: url('/public/assets/img/services/bg.svg');
-}
-
-.bg-\[url\(\'\.\/public\/assets\/img\/services\/bg\.svg\'\)\] {
-  background-image: url('./public/assets/img/services/bg.svg');
-}
-
-.bg-\[url\(\'public\/assets\/img\/services\/bg\.svg\'\)\] {
-  background-image: url('public/assets/img/services/bg.svg');
-}
-
-.bg-\[url\(\'\.\.\/public\/assets\/img\/services\/bg\.svg\'\)\] {
-  background-image: url('../public/assets/img/services/bg.svg');
-}
-
-.bg-\[url\(\'\.\/assets\/img\/services\/bg\.svg\'\)\] {
-  background-image: url('./assets/img/services/bg.svg');
 }
 
 .bg-\[url\(\'\.\.\/assets\/img\/services\/bg\.svg\'\)\] {
@@ -911,6 +922,11 @@ video {
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-6 {
@@ -969,6 +985,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[26px\] {
+  font-size: 26px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -977,6 +997,10 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-light {
@@ -1011,6 +1035,11 @@ video {
 .text-accent-tertiary {
   --tw-text-opacity: 1;
   color: rgb(144 198 205 / var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(36 42 43 / var(--tw-text-opacity));
 }
 
 .text-secondary {
@@ -1272,9 +1301,49 @@ h1,h2,h3,h4,h5,h6 {
   font-style: italic;
 }
 
+.hover\:bg-grey:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 240 241 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-zinc-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-accent:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 188 207 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-accent-secondary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 171 188 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-accent-tertiary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(144 198 205 / var(--tw-bg-opacity));
+}
+
 .hover\:text-accent:hover {
   --tw-text-opacity: 1;
   color: rgb(28 188 207 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:w-\[180px\]:focus {
@@ -1290,9 +1359,27 @@ h1,h2,h3,h4,h5,h6 {
   border-color: rgb(28 188 207 / var(--tw-border-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:max-w-xl {
     max-width: 36rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 }
 
@@ -1308,6 +1395,10 @@ h1,h2,h3,h4,h5,h6 {
 
   .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .lg\:mb-\[50px\] {
+    margin-bottom: 50px;
   }
 
   .lg\:mb-\[60px\] {
@@ -1387,6 +1478,11 @@ h1,h2,h3,h4,h5,h6 {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
