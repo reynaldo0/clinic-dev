@@ -7,7 +7,6 @@
   "name": "klinik",
   "version": "1.0.0",
   "main": "tailwind.config.js",
-  
   "scripts": {
     "build": "tailwindcss -i ./src/css/input.css -o ./public/css/output.css",
     "dev": "tailwindcss -i ./src/css/input.css -o ./public/css/output.css --watch"
