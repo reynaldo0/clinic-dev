@@ -62,16 +62,13 @@ faqItems.forEach((item)=> {
 });
 
 // scroll reveal animations
-const sr = ScrollReveal ();
-sr.reveal ('reveal', {
+const sr = ScrollReveal ({
   origin: 'bottom',
   distance: '60px',
   duration: 3000,
   delay: 600,
-});
- 
   //reset: true // resets animation
-
+});
 
 //hero
 sr.reveal('.hero_text', { origin: 'top'});
