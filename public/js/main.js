@@ -58,17 +58,29 @@ faqItems.forEach((item)=> {
     const iconClass = isOpen ? 'ri-subtract-fill' : 'ri-add-fill';
     const iconElement = faqBtn.querySelector('i');
     iconElement.classList = `${iconClass} text-2xl`;
-  })
-})
+  });
+});
 
 // scroll reveal animations
-const sr = ScrollReveal({
+const sr = ScrollReveal ();
+sr.reveal ('reveal', {
   origin: 'bottom',
   distance: '60px',
   duration: 3000,
   delay: 600,
-  //reset: true // resets animation
 });
+ 
+  //reset: true // resets animation
+
 
 //hero
 sr.reveal('.hero_text', { origin: 'top'});
+sr.reveal('.hero_img');
+
+//stats
+sr.reveal('.stats_item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'top'
+});
