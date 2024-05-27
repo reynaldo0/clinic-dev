@@ -1,3 +1,4 @@
+
 // Mobile Navbar
 const mobileNav = document.querySelector(".mnav");
 const closeBtn = document.querySelector(".mnav_close-btn");
