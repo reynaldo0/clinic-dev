@@ -1,3 +1,4 @@
+
 // Mobile Navbar
 const mobileNav = document.querySelector(".mnav");
 const closeBtn = document.querySelector(".mnav_close-btn");
@@ -46,3 +47,38 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 // Swiper ends
+
+// faq start
+const faqItems = document.querySelectorAll('.faq_item');
+
+faqItems.forEach((item)=> {
+  const faqBtn = item.querySelector('.faq_btn');
+
+  item.addEventListener('click', ()=> {
+    const isOpen = item.classList.toggle('open');
+    const iconClass = isOpen ? 'ri-subtract-fill' : 'ri-add-fill';
+    const iconElement = faqBtn.querySelector('i');
+    iconElement.classList = `${iconClass} text-2xl`;
+  });
+});
+
+// scroll reveal animations
+const sr = ScrollReveal ({
+  origin: 'bottom',
+  distance: '60px',
+  duration: 3000,
+  delay: 600,
+  //reset: true // resets animation
+});
+
+//hero
+sr.reveal('.hero_text', { origin: 'top'});
+sr.reveal('.hero_img');
+
+//stats
+sr.reveal('.stats_item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'top'
+});
