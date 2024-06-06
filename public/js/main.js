@@ -82,3 +82,68 @@ sr.reveal('.stats_item', {
   interval: 100,
   origin: 'top'
 });
+
+//services
+sr.reveal('.services');
+sr.reveal('.services_top');
+sr.reveal('.services_item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom'
+});
+
+// appoinment
+sr.reveal('.appointment_title');
+sr.reveal('.appointment_form ');
+
+// testimonial
+sr.reveal('.testimonial');
+sr.reveal('.testimonial_container');
+
+
+// team
+sr.reveal('.team_title');
+sr.reveal('.team_slider');
+
+// faq
+sr.reveal('.faq_title ');
+sr.reveal('.faq_item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'button',
+});
+
+// departements
+sr.reveal('.departments_bg');
+sr.reveal('.departments_container');
+
+// blog
+sr.reveal('.blog_title');
+sr.reveal('.blog_post', {
+  delay: 500,
+  distance: '100px',
+  interval: 100,
+  origin:'bottom',
+});
+
+// brands
+sr.reveal('.brands_logo', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin:'bottom',
+});
+
+// newsletter
+sr.reveal('.newsletter');
+sr.reveal('.newsletter_container');
+
+// footer
+sr.reveal('.footer_item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin:'bottom',
+});
